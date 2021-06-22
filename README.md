@@ -19,7 +19,10 @@ Javascript
   
 ## Roadmap
 
+- Adicionar a funcionalidade de "update" no momento não é possivel alterar algum item inserido no local.storage
+
 - Deixar o botao de + para adicionar outro campo de item e quantidade de items assim podendo adicionar mais itens a lista (no momento apenas 1 item é possivel ser adicionado)
 
 - Reformulação completa do layout que esta bem simples
+
 
