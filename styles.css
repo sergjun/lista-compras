@@ -25,5 +25,13 @@
 .form-container .nome {
   display: flex;
 }
+.form-container .item {
+  display: flex;
+}
+.form-container .listaContainer {
+  width: 30vw;
+  height: 30vh;
+  background-color: #bd9ecc;
+}
 
 /*# sourceMappingURL=styles.css.map */

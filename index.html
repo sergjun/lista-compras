@@ -8,17 +8,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
 
-    <title>Document</title>
+    <title>Lista de compras</title>
 </head>
 <body>
     
     <div class = "form-container">
-        <h1>Entre em contato conosco</h1>
-        <div class= "main-form">
+        <h1>Lista de compras</h1>
+        <div class= "main-form" id="main-form">
             <div class="nome">
                 <p>Nome</p>
                 <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
             </div>
+            <div class="item">
+                <p>Item</p>
+                <input type="text" name="item" id="item" placeholder="Que item você quer adicionar a lista">
+                <input type="number" name="numero-item" id="numero-item" placeholder="Quantidades de items">
+            </div>
+
+            <button class="gravar-dado" id="gravarBotao">Gravar Item</button>
+            <button class="mostrar-lista" id="mostrarLista">Mostrar Lista</button>
+            
         </div>
     
     </div>
