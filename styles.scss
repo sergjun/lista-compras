@@ -14,38 +14,157 @@
     background-color: rgb(153, 129, 221);
 
 
+
     h1 {
         text-align: center;
+        color: white;
+        padding-top: 5rem;
         margin-bottom: 5rem;
     }
 
     .main-form
     {   
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 60%;
         margin: auto;
         background-color:rgba(233, 227, 233, 0.5) ;
         border: solid 2px white;
         border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
     }
     
     .nome
     {
         display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        
+        
+
+
+        p {
+            text-align: center;
+            margin-right: 1rem;  
+            font-weight: bold;  
+        }
+
+        .limpar-lista
+        {
+            margin-left: 1rem;
+            cursor: pointer;
+            padding: 0.9375rem;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 20px;
+        }
+
+        .limpar-lista:hover
+        {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+        }
     }
 
 
     .item 
     {
         display: flex;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+
+        p {
+
+            text-align: center;
+            margin-right: 1rem;  
+            font-weight: bold;  
+    
+        }
+
+        #item
+        {
+            margin-right: 1rem;
+        }
     }
 
+    .add-item
+    {
+        margin-left: 1rem;
+        font-size: 1rem;
+        width: 40px;
+        text-align: center;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .add-item:hover
+    {
+        color: black;
+        background-color: white;
+        font-weight: bold;
+    }
 
 
     .listaContainer
-    {
+    {   
+        margin-bottom: 1rem;
+        margin-top: 3rem;
         width: 30vw;
         height: 30vh;
         background-color: rgb(189, 158, 204);
+
+
+        p 
+        {
+            margin: 1rem;
+            font-weight: bold;
+            color: white;
+        }
     }
+
+    .gravar-dado
+    {
+        margin-left: 1rem;
+        cursor: pointer;
+        padding: 15px;
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 20px;
+        
+    }
+
+    .gravar-dado:hover
+    {
+        background-color: rgb(66, 50, 75);
+        font-weight: bold;
+        
+    }
+
+    .mostrar-lista
+    {
+        margin-left: 1rem;
+        cursor: pointer;
+        padding: 0.9375rem;
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .mostrar-lista:hover
+    {
+        background-color: rgb(46, 10, 66);
+        font-weight: bold;
+    }
+ 
 }

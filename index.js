@@ -2,6 +2,7 @@
 const mainForm = document.getElementById("main-form")
 const gravarBotao = document.getElementById("gravarBotao")
 const exibirBotao = document.getElementById("mostrarLista")
+const limparBotao = document.getElementById("limparBotao")
 
 
 
@@ -9,6 +10,8 @@ const exibirBotao = document.getElementById("mostrarLista")
 gravarBotao.addEventListener ("click", () => gravarItem()) 
 
 mostrarLista.addEventListener ("click", () => exibirLista ())
+
+
 
 
 function gravarItem ()
@@ -63,4 +66,18 @@ function exibirLista ()
     listaContainer.appendChild(nomeLista)
     listaContainer.appendChild(itemsLista)
     listaContainer.appendChild(quantidadeItem)
+
+    limparBotao.addEventListener ("click", () => deletarLista ())
+
+
+    function deletarLista ()
+    {
+
+        localStorage.clear()
+        listaContainer.style.display = "none"
+    }
+
 }
+
+
+
